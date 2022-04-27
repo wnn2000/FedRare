@@ -94,7 +94,7 @@ if __name__ == '__main__':
     logs_dir = os.path.join(exp_dir, 'logs')
     if not os.path.exists(logs_dir):
         os.mkdir(logs_dir)
-    tensorboard_dir = os.path.join(exp_dir, 'tensorboaed')
+    tensorboard_dir = os.path.join(exp_dir, 'tensorboard')
     if not os.path.exists(tensorboard_dir):
         os.mkdir(tensorboard_dir)
 
